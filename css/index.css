@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+article {
+    border: 30px solid transparent;
+    border-image: url("Design\ sem\ nome\ \(30\).png") 150 round;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 12px;
+}
+
+input[type=text],
+input[type=date] {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px #333333;
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #6e05ac;
+    background: #cccccc;
+    border: 1px solid #000000;
+    width: 150px;
+    text-align: center;
+    padding-left: 100px;
+}
+
+input[type=text]:hover,
+textarea:hover,
+input[type=date]:hover {
+    background: #ffffff;
+    border: 1px solid #410275;
+}
+
+label {
+    margin-left: 150px;
+    color: #000000;
+    text-shadow: 4px 4px 3px #f3f3f3;
+}
+
+h4 {
+    color: #000000;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+hr {
+    margin: 0 100px;
+    color: #00000052;
+    font-weight: bold;
+}
+
+
+
+body {
+    background-image: linear-gradient(#f7e9ff, #ffffff);
+}
+
+.input2 {
+    margin-left: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    color: #ffffff;
+    border-radius: 4px;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+button {
+    text-align: center;
+    color: #000000;
+    margin: 5px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px #333333;
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #6e05ac;
+    background: #cccccc;
+    border: 1px solid #6e05ac;
+    width: 150px;
+}
+
+button:hover {
+    background: #ffffff;
+    border: 1px solid #410275;
+}
+
+#Lerolero p {
+    color: #000000;
+    text-align: justify;
+    text-indent: 2em;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 3px #ffffff;
+    font-weight: 30px;
+
+}
+
+blockquote {
+    background-color: #ffeafc;
+    padding: 5px;
+    border: 1px dashed #ffe5fc;
+    text-shadow: 0px 1px 0px #deeedf;
+    box-shadow: inset 0 0 15px #f6edfd, 0 0 3px #dbc8d3;
+    color: #55005d;
+    padding: 10px;
+    -webkit-transition-duration: .50s;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-indent: 2em;
+}
+
+blockquote:hover {
+    background-color: #ffe7e9;
+    border: 1px dashed #be8df5;
+    text-shadow: 0px 1px 0px #f6e4e5;
+    box-shadow: inset 0 0 15px #9255bb, 0 0 3px #dfc9c3;
+    color: #332052;
+    -webkit-transition-duration: .50s;
+}
+
+#nomeUsuario,
+#dataInformada {
+    text-align: center;
+    font-style: italic;
+}
+
+/* .conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+} */
+
+.tipo {
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}

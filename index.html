@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Lero lero</title>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <section id="conteudo">
+        <article>
+            <form id="formulario">
+                <h1>Gerador de Lero-Lero</h1>
+
+                <label style="margin-left: 170px;">Nome</label>
+                <input style="margin-left: 20px;
+                " type="text" name="nome" size="30" type="text " id="nome"><br><br>
+
+                <label style="margin-left: 180px;">Data</label>
+                <input style="margin-left: 20px; background: #cccccc;" name="datee" type="date" name="linhas" size="8"
+                    type="date" id="data" required="true"><br><br>
+
+                <label style="margin-left: 172px;" class="campo">Título</label>
+                <input style="margin-left: 20px;
+                " type="text" id="titulo"><br><br>
+
+                <label style="margin-left: 70px;">Número de parágrafos</label>
+                <input style="margin-left: 20px;
+                " name="linhas" size="8" type="text" id="numeroParagrafos"><br><br>
+
+                <button style="margin-left: 260px;" type="button" onclick="lerolero()" class="botao">Gerar
+                    texto</button>
+            </form>
+        </article>
+    </section>
+    <a href="#fimtexto">
+    <p class="tipo">ir até o final do texto⇩</p></a>
+    <div id="impressao">
+        <h2 id="tituloInformado"></h2>
+        <p id="nomeUsuario">
+        </p>
+        <p id="dataInformada">
+        </p>
+        <section id="Lerolero">
+
+        </section>
+    </div>
+    <a href="#formulario">
+    <p   id="fimtexto" class="tipo">voltar ao topo⇧</p></a>
+
+
+    <button style="margin-left: 510px;" type="button" onclick="copiarTexto()" id="botaoCopiar">Copiar
+        texto</button>
+    <button type="button" onclick="imprimir()" id="botaoImprimir">Imprimir
+        texto</button>
+
+
+    <blockquote>
+        Para quem não conhece, é um site que possui um mecanismo capaz de gerar qualquer quantidade de texto vazio e
+        prolixo, perfeito para encher linguiça em uma palestra ou até mesmo em uma dissertação de mestrado.
+        Ao acessar O Gerador de Lero-lero, você poderá gerar um texto com o tamanho que você precisar. Basta escolher o
+        tema do seu texto e a quantidade de frases que deseja que seu texto tenha. Depois disso, é só clicar em "Gerar!"
+        para criar seu texto, cheio de frases bonitas, mas que são pura enrolação.
+    </blockquote>
+
+    <footer>
+        <hr style=" color: black;">
+        <p style="color: rgb(0, 0, 0); text-align: center;font-family: 'Roboto Mono', monospace;font-weight: bold;">
+            Tainá Dreissig | IFPR - IIW2022 B </p>
+    </footer>
+</body>
+
+</html>
